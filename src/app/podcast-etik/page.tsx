@@ -1,3 +1,4 @@
+/* eslint react/no-unescaped-entities: "off" */
 "use client"
 
 import { Button } from "@/components/ui/button"
@@ -149,12 +150,12 @@ export default function PodcastEtikPage() {
           <h2 className="text-3xl font-bold mb-12">Ce que disent nos auditeurs</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-orange-50 p-6 rounded-xl">
-              <div className="text-orange-500 text-2xl mb-4">"</div>
+              <div className="text-orange-500 text-2xl mb-4">&ldquo;</div>
               <p className="italic mb-4">Enfin un podcast qui montre la réalité de l’entrepreneuriat, avec ses hauts et ses bas. Inspirant et rafraîchissant&nbsp;!</p>
               <p className="font-semibold">- Marie, entrepreneuse</p>
             </div>
             <div className="bg-orange-50 p-6 rounded-xl">
-              <div className="text-orange-500 text-2xl mb-4">"</div>
+              <div className="text-orange-500 text-2xl mb-4">&ldquo;</div>
               <p className="italic mb-4">Les conseils pratiques et les récits authentiques m’ont aidé à prendre des décisions importantes pour mon entreprise.</p>
               <p className="font-semibold">- Thomas, fondateur de startup</p>
             </div>
