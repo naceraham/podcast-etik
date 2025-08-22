@@ -14,7 +14,7 @@ export default function PodcastEtikPage() {
 
   const themes = [
     { icon: "💡", title: "Valeurs & éthique", text: "Comment rester aligné dans son projet" },
-    { icon: "🌍", title: "Humain & planète", text: "Mettre l'impact au cœur de son activité" },
+    { icon: "🌍", title: "Humain & planète", text: "Mettre l’impact au cœur de son activité" },
     { icon: "🔥", title: "Parcours inspirants", text: "Des histoires vraies et sans filtre" },
     { icon: "🚀", title: "Entreprendre autrement", text: "Sortir du modèle classique" }
   ];
@@ -37,7 +37,7 @@ export default function PodcastEtikPage() {
           <a href="#contact" className="hover:underline">Contact</a>
         </div>
         <Button variant="outline" className="bg-white text-orange-600 hover:bg-orange-100">
-          S'abonner
+          S’abonner
         </Button>
       </nav>
 
@@ -48,20 +48,20 @@ export default function PodcastEtikPage() {
         </div>
         <h1 className="text-4xl md:text-5xl font-bold mb-6">Le Podcast Étik – Entreprendre sans compromis</h1>
         <p className="text-lg md:text-xl mb-8 leading-relaxed">
-          Chaque semaine, des entrepreneurs partagent leurs parcours et leurs choix. 
-          Pas de bullshit. Pas de success stories déconnectées. 
-          👉 Juste de vraies histoires d'ambition guidée par les valeurs.
+          Chaque semaine, des entrepreneurs partagent leurs parcours et leurs choix.
+          Pas de bullshit. Pas de success stories déconnectées.
+          👉 Juste de vraies histoires d’ambition guidée par les valeurs.
         </p>
         <div className="flex justify-center gap-4 flex-wrap mb-12">
-          <Button 
+          <Button
             className="bg-white text-orange-600 hover:bg-orange-100 px-6 py-3"
-            onClick={() => window.open(platformLinks.spotify, '_blank')}
+            onClick={() => window.open(platformLinks.spotify, "_blank")}
           >
             <Music2 className="mr-2" /> Écouter sur Spotify
           </Button>
-          <Button 
+          <Button
             className="bg-white text-orange-600 hover:bg-orange-100 px-6 py-3"
-            onClick={() => window.open(platformLinks.youtube, '_blank')}
+            onClick={() => window.open(platformLinks.youtube, "_blank")}
           >
             <Youtube className="mr-2" /> Regarder sur YouTube
           </Button>
@@ -82,8 +82,8 @@ export default function PodcastEtikPage() {
       <section id="about" className="bg-white text-gray-900 py-16 px-6">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">🌱 Pourquoi écouter Le Podcast Étik ?</h2>
-        <p className="text-lg leading-relaxed mb-10">
-            Parce qu'entreprendre, ce n'est pas seulement chercher la croissance. C'est aussi préserver l'humain, la planète… et soi-même. 
+          <p className="text-lg leading-relaxed mb-10">
+            Parce qu’entreprendre, ce n’est pas seulement chercher la croissance. C’est aussi préserver l’humain, la planète… et soi-même.
             Dans chaque épisode, découvrez des parcours inspirants, des réflexions vraies, et des conseils pour réussir sans compromis.
           </p>
 
@@ -134,8 +134,8 @@ export default function PodcastEtikPage() {
                 <p className="mt-2">Bande-annonce du podcast</p>
               </div>
             </div>
-            <h3 className="text-2xl font-bold mb-2">Episode 20: Entrepreneuriat à impact avec Jane Doe</h3>
-            <p className="mb-6">Découvrez comment Jane a créé une entreprise prospère tout en ayant un impact positif sur la société et l'environnement.</p>
+            <h3 className="text-2xl font-bold mb-2">Épisode 20&nbsp;: Entrepreneuriat à impact avec Jane Doe</h3>
+            <p className="mb-6">Découvrez comment Jane a créé une entreprise prospère tout en ayant un impact positif sur la société et l’environnement.</p>
             <Button className="bg-orange-600 text-white hover:bg-orange-700">
               Écouter maintenant <ArrowRight className="ml-2" size={16} />
             </Button>
@@ -150,12 +150,12 @@ export default function PodcastEtikPage() {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-orange-50 p-6 rounded-xl">
               <div className="text-orange-500 text-2xl mb-4">"</div>
-              <p className="italic mb-4">Enfin un podcast qui montre la réalité de l'entrepreneuriat, avec ses hauts et ses bas. Inspirant et rafraîchissant !</p>
+              <p className="italic mb-4">Enfin un podcast qui montre la réalité de l’entrepreneuriat, avec ses hauts et ses bas. Inspirant et rafraîchissant&nbsp;!</p>
               <p className="font-semibold">- Marie, entrepreneuse</p>
             </div>
             <div className="bg-orange-50 p-6 rounded-xl">
               <div className="text-orange-500 text-2xl mb-4">"</div>
-              <p className="italic mb-4">Les conseils pratiques et les récits authentiques m'ont aidé à prendre des décisions importantes pour mon entreprise.</p>
+              <p className="italic mb-4">Les conseils pratiques et les récits authentiques m’ont aidé à prendre des décisions importantes pour mon entreprise.</p>
               <p className="font-semibold">- Thomas, fondateur de startup</p>
             </div>
           </div>
@@ -166,33 +166,33 @@ export default function PodcastEtikPage() {
       <section id="listen" className="bg-orange-800 text-white py-16 px-6">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-8">🚀 Où écouter Le Podcast Étik ?</h2>
-          <p className="mb-10">Disponible sur toutes les plateformes d'écoute</p>
+          <p className="mb-10">Disponible sur toutes les plateformes d’écoute</p>
           <div className="flex justify-center gap-4 flex-wrap">
-            <Button 
-              variant="outline" 
+            <Button
+              variant="outline"
               className="bg-white text-orange-700 hover:bg-orange-200 px-6 py-3"
-              onClick={() => window.open(platformLinks.spotify, '_blank')}
+              onClick={() => window.open(platformLinks.spotify, "_blank")}
             >
               <Music2 className="mr-2" /> Spotify
             </Button>
-            <Button 
-              variant="outline" 
+            <Button
+              variant="outline"
               className="bg-white text-orange-700 hover:bg-orange-200 px-6 py-3"
-              onClick={() => window.open(platformLinks.youtube, '_blank')}
+              onClick={() => window.open(platformLinks.youtube, "_blank")}
             >
               <Youtube className="mr-2" /> YouTube
             </Button>
-            <Button 
-              variant="outline" 
+            <Button
+              variant="outline"
               className="bg-white text-orange-700 hover:bg-orange-200 px-6 py-3"
-              onClick={() => window.open(platformLinks.apple, '_blank')}
+              onClick={() => window.open(platformLinks.apple, "_blank")}
             >
               <Radio className="mr-2" /> Apple Podcasts
             </Button>
-            <Button 
-              variant="outline" 
+            <Button
+              variant="outline"
               className="bg-white text-orange-700 hover:bg-orange-200 px-6 py-3"
-              onClick={() => window.open(platformLinks.deezer, '_blank')}
+              onClick={() => window.open(platformLinks.deezer, "_blank")}
             >
               <Radio className="mr-2" /> Deezer
             </Button>
@@ -206,13 +206,13 @@ export default function PodcastEtikPage() {
           <h2 className="text-3xl font-bold mb-6">Restez informé</h2>
           <p className="mb-8">Inscrivez-vous à la newsletter pour être alerté des nouveaux épisodes et recevoir du contenu exclusif</p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <input 
-              type="email" 
-              placeholder="Votre email" 
+            <input
+              type="email"
+              placeholder="Votre email"
               className="flex-1 px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"
             />
             <Button className="bg-orange-600 text-white hover:bg-orange-700 px-6 py-3">
-              S'inscrire
+              S’inscrire
             </Button>
           </div>
         </div>
